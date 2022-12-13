@@ -1,6 +1,6 @@
 {
   "name": "@ferocia-oss/loki-integration-core",
-  "version": "0.31.0",
+  "version": "0.31.1",
   "description": "Loki storybook integration core lib",
   "keywords": [
     "loki"

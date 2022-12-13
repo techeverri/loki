@@ -1,6 +1,6 @@
 {
   "name": "@ferocia-oss/loki-target-chrome-core",
-  "version": "0.31.0",
+  "version": "0.31.1",
   "description": "Loki Chrome target core lib",
   "keywords": [
     "loki"
@@ -20,9 +20,9 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@ferocia-oss/loki-browser": "^0.31.0",
-    "@ferocia-oss/loki-core": "^0.31.0",
-    "@ferocia-oss/loki-integration-core": "^0.31.0",
+    "@ferocia-oss/loki-browser": "^0.31.1",
+    "@ferocia-oss/loki-core": "^0.31.1",
+    "@ferocia-oss/loki-integration-core": "^0.31.1",
     "debug": "^4.1.1"
   },
   "publishConfig": {

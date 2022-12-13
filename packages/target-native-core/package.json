@@ -1,6 +1,6 @@
 {
   "name": "@ferocia-oss/loki-target-native-core",
-  "version": "0.31.0",
+  "version": "0.31.1",
   "description": "Loki native target core lib",
   "keywords": [
     "loki"
@@ -20,7 +20,7 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@ferocia-oss/loki-core": "^0.31.0",
+    "@ferocia-oss/loki-core": "^0.31.1",
     "debug": "^4.1.1",
     "ws": "^7.2.0"
   },

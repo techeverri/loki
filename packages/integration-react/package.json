@@ -1,6 +1,6 @@
 {
   "name": "@ferocia-oss/loki-integration-react",
-  "version": "0.31.0",
+  "version": "0.31.1",
   "description": "Loki react integration",
   "keywords": [
     "loki"
@@ -20,7 +20,7 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@ferocia-oss/loki-browser": "^0.31.0"
+    "@ferocia-oss/loki-browser": "^0.31.1"
   },
   "peerDependencies": {
     "@storybook/react": "^5 || ^6"

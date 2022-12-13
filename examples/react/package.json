@@ -1,6 +1,6 @@
 {
   "name": "@ferocia-oss/loki-example-react",
-  "version": "0.31.0",
+  "version": "0.31.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -40,8 +40,8 @@
     ]
   },
   "devDependencies": {
-    "@ferocia-oss/loki-create-async-callback": "^0.31.0",
-    "@ferocia-oss/loki-is-loki-running": "^0.31.0",
+    "@ferocia-oss/loki-create-async-callback": "^0.31.1",
+    "@ferocia-oss/loki-is-loki-running": "^0.31.1",
     "@storybook/addon-actions": "^6.4.19",
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/addon-interactions": "^6.4.19",

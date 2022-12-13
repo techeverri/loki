@@ -1,6 +1,6 @@
 {
   "name": "@ferocia-oss/loki-target-chrome-docker",
-  "version": "0.31.0",
+  "version": "0.31.1",
   "description": "Loki Chrome docker target",
   "keywords": [
     "loki"
@@ -20,8 +20,8 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@ferocia-oss/loki-core": "^0.31.0",
-    "@ferocia-oss/loki-target-chrome-core": "^0.31.0",
+    "@ferocia-oss/loki-core": "^0.31.1",
+    "@ferocia-oss/loki-target-chrome-core": "^0.31.1",
     "chrome-remote-interface": "^0.29.0",
     "debug": "^4.1.1",
     "execa": "^5.0.0",

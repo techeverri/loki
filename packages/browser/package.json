@@ -1,6 +1,6 @@
 {
   "name": "@ferocia-oss/loki-browser",
-  "version": "0.31.0",
+  "version": "0.31.1",
   "description": "Loki browser integration",
   "keywords": [
     "loki"
@@ -20,7 +20,7 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@ferocia-oss/loki-integration-core": "^0.31.0"
+    "@ferocia-oss/loki-integration-core": "^0.31.1"
   },
   "publishConfig": {
     "access": "public"

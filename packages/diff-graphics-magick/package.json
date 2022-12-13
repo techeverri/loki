@@ -1,6 +1,6 @@
 {
   "name": "@ferocia-oss/loki-diff-graphics-magick",
-  "version": "0.31.0",
+  "version": "0.31.1",
   "description": "Loki graphics magick image differ",
   "keywords": [
     "loki"

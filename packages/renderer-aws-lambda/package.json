@@ -1,6 +1,6 @@
 {
   "name": "@ferocia-oss/loki-renderer-aws-lambda",
-  "version": "0.31.0",
+  "version": "0.31.1",
   "description": "Loki AWS Lambda Chrome renderer",
   "keywords": [
     "loki"
@@ -20,8 +20,8 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@ferocia-oss/loki-core": "^0.31.0",
-    "@ferocia-oss/loki-target-chrome-app": "^0.31.0",
+    "@ferocia-oss/loki-core": "^0.31.1",
+    "@ferocia-oss/loki-target-chrome-app": "^0.31.1",
     "async": "^3.2.0"
   },
   "devDependencies": {
