@@ -1,6 +1,6 @@
 const debug = require('debug')('loki:chrome:aws-lambda');
 const AWS = require('aws-sdk');
-const { parseError, withRetries } = require('@loki/core');
+const { parseError, withRetries } = require('@ferocia-oss/loki-core');
 
 function createChromeAWSLambdaTarget({
   baseUrl = 'http://localhost:6006',

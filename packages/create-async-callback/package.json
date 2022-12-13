@@ -1,5 +1,5 @@
 {
-  "name": "@loki/create-async-callback",
+  "name": "@ferocia-oss/loki-create-async-callback",
   "version": "0.30.2",
   "description": "Loki async story management helper",
   "keywords": [
@@ -24,6 +24,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@loki/integration-react-native": "^0.30.2"
+    "@ferocia-oss/loki-integration-react-native": "^0.30.2"
   }
 }

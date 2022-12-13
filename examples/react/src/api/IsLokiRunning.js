@@ -1,5 +1,5 @@
 import React from 'react';
-import isLokiRunning from '@loki/is-loki-running';
+import isLokiRunning from '@ferocia-oss/loki-is-loki-running';
 import './isLokiRunning.css';
 
 const DisableAnimationsContext = React.createContext(false);

@@ -6,17 +6,21 @@ const groupBy = require('ramda/src/groupBy');
 const toPairs = require('ramda/src/toPairs');
 const fromPairs = require('ramda/src/fromPairs');
 const mapObjIndexed = require('ramda/src/mapObjIndexed');
-const { createChromeAppTarget } = require('@loki/target-chrome-app');
-const { createChromeDockerTarget } = require('@loki/target-chrome-docker');
+const {
+  createChromeAppTarget,
+} = require('@ferocia-oss/loki-target-chrome-app');
+const {
+  createChromeDockerTarget,
+} = require('@ferocia-oss/loki-target-chrome-docker');
 const {
   createChromeAWSLambdaTarget,
-} = require('@loki/target-chrome-aws-lambda');
+} = require('@ferocia-oss/loki-target-chrome-aws-lambda');
 const {
   createIOSSimulatorTarget,
-} = require('@loki/target-native-ios-simulator');
+} = require('@ferocia-oss/loki-target-native-ios-simulator');
 const {
   createAndroidEmulatorTarget,
-} = require('@loki/target-native-android-emulator');
+} = require('@ferocia-oss/loki-target-native-android-emulator');
 const { die } = require('../../console');
 const createBaselineLimitedBatchBuilder = require('./create-baseline-limited-batch-builder');
 const testBatch = require('./test-batch');

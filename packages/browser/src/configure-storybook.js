@@ -1,5 +1,7 @@
 /* global window */
-const { createReadyStateManager } = require('@loki/integration-core');
+const {
+  createReadyStateManager,
+} = require('@ferocia-oss/loki-integration-core');
 const populateLokiHelpers = require('./populate-loki-helpers');
 
 function createConfigurator(storybook) {

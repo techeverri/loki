@@ -1,5 +1,5 @@
 {
-  "name": "@loki/diff-looks-same",
+  "name": "@ferocia-oss/loki-diff-looks-same",
   "version": "0.30.0",
   "description": "Loki looks-same image differ",
   "keywords": [

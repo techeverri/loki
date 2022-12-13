@@ -6,7 +6,7 @@ import { Text } from 'react-native';
 import { storiesOf } from '@storybook/react-native';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
-import createAsyncCallback from '@loki/create-async-callback';
+import createAsyncCallback from '@ferocia-oss/loki-create-async-callback';
 
 import Button from './Button';
 import CenterView from './CenterView';

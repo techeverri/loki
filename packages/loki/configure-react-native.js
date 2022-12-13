@@ -1,1 +1,1 @@
-require('@loki/integration-react-native')();
+require('@ferocia-oss/loki-integration-react-native')();

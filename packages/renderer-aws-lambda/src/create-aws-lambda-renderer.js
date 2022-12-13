@@ -1,7 +1,9 @@
 const chromium = require('chrome-aws-lambda');
 const mapLimit = require('async/mapLimit');
-const { createChromeAppTarget } = require('@loki/target-chrome-app');
-const { serializeError, unwrapError } = require('@loki/core');
+const {
+  createChromeAppTarget,
+} = require('@ferocia-oss/loki-target-chrome-app');
+const { serializeError, unwrapError } = require('@ferocia-oss/loki-core');
 
 const getStorybook = async (target) => {
   const stories = await target.getStorybook();

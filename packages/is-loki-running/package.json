@@ -1,5 +1,5 @@
 {
-  "name": "@loki/is-loki-running",
+  "name": "@ferocia-oss/loki-is-loki-running",
   "version": "0.30.0",
   "description": "Loki test indicator",
   "keywords": [

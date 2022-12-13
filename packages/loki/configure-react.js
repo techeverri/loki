@@ -1,1 +1,1 @@
-require('@loki/integration-react')();
+require('@ferocia-oss/loki-integration-react')();

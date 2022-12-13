@@ -1,5 +1,5 @@
 {
-  "name": "@loki/diff-pixelmatch",
+  "name": "@ferocia-oss/loki-diff-pixelmatch",
   "version": "0.30.0",
   "description": "Loki pixelmatch image differ",
   "keywords": [

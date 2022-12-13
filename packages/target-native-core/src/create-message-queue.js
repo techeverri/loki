@@ -1,4 +1,4 @@
-const { NativeError } = require('@loki/core');
+const { NativeError } = require('@ferocia-oss/loki-core');
 
 const createMessageQueue = (nativeErrorType) => {
   const queue = [];

@@ -7,7 +7,7 @@ const {
   ChromeError,
   FetchingURLsError,
   unwrapError,
-} = require('@loki/core');
+} = require('@ferocia-oss/loki-core');
 const { die, bold } = require('./console');
 const { version } = require('../package.json');
 

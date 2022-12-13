@@ -1,3 +1,5 @@
-const { createReadyStateManager } = require('@loki/integration-core');
+const {
+  createReadyStateManager,
+} = require('@ferocia-oss/loki-integration-core');
 
 module.exports = createReadyStateManager();

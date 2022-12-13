@@ -1,5 +1,5 @@
 {
-  "name": "@loki/integration-vue",
+  "name": "@ferocia-oss/loki-integration-vue",
   "version": "0.30.1",
   "description": "Loki vue integration",
   "keywords": [
@@ -20,7 +20,7 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@loki/browser": "^0.30.1"
+    "@ferocia-oss/loki-browser": "^0.30.1"
   },
   "peerDependencies": {
     "@storybook/vue": "^5 || ^6"

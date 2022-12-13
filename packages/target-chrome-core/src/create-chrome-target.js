@@ -11,8 +11,10 @@ const {
   setLokiIsRunning,
   setLokiTestAttribute,
   populateLokiHelpers,
-} = require('@loki/browser');
-const { createReadyStateManager } = require('@loki/integration-core');
+} = require('@ferocia-oss/loki-browser');
+const {
+  createReadyStateManager,
+} = require('@ferocia-oss/loki-integration-core');
 
 const {
   TimeoutError,
@@ -22,7 +24,7 @@ const {
   withRetries,
   unwrapError,
   getAbsoluteURL,
-} = require('@loki/core');
+} = require('@ferocia-oss/loki-core');
 const presets = require('./presets.json');
 
 const RETRY_LOADING_STORIES_TIMEOUT = 10000;

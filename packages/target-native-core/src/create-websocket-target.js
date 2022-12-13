@@ -1,6 +1,10 @@
 const debug = require('debug')('loki:websocket');
 const WebSocket = require('ws');
-const { NativeError, withTimeout, withRetries } = require('@loki/core');
+const {
+  NativeError,
+  withTimeout,
+  withRetries,
+} = require('@ferocia-oss/loki-core');
 const createMessageQueue = require('./create-message-queue');
 
 const MESSAGE_PREFIX = 'loki:';

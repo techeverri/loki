@@ -1,8 +1,10 @@
 const fs = require('fs-extra');
 const tempy = require('tempy');
 const osnap = require('osnap/src/ios');
-const { withRetries } = require('@loki/core');
-const { createWebsocketTarget } = require('@loki/target-native-core');
+const { withRetries } = require('@ferocia-oss/loki-core');
+const {
+  createWebsocketTarget,
+} = require('@ferocia-oss/loki-target-native-core');
 
 const captureScreenshot = withRetries(3)(async (device) => {
   const filename = tempy.file({ extension: 'png' });

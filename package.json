@@ -1,5 +1,5 @@
 {
-  "name": "@loki/root",
+  "name": "@ferocia-oss/loki-root",
   "version": "0.18.1",
   "description": "Visual Regression Testing for react-storybook",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "lint": "eslint packages/*/src",
     "test": "jest",
     "test-ci": "jest --testLocationInResults --ci --outputFile=test_results.json --json",
-    "publish-docs": "GIT_USER=oblador yarn workspace @loki/website publish-gh-pages"
+    "publish-docs": "GIT_USER=oblador yarn workspace @ferocia-oss/loki-website publish-gh-pages"
   },
   "engines": {
     "node": ">=14.0.0"

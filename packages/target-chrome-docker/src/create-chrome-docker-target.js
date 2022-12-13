@@ -8,8 +8,8 @@ const {
   ChromeError,
   ensureDependencyAvailable,
   getAbsoluteURL,
-} = require('@loki/core');
-const { createChromeTarget } = require('@loki/target-chrome-core');
+} = require('@ferocia-oss/loki-core');
+const { createChromeTarget } = require('@ferocia-oss/loki-target-chrome-core');
 const { getLocalIPAddress } = require('./get-local-ip-address');
 const { getNetworkHost } = require('./get-network-host');
 

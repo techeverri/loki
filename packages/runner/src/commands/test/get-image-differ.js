@@ -1,6 +1,8 @@
-const { createGraphicsMagickDiffer } = require('@loki/diff-graphics-magick');
-const { createLooksSameDiffer } = require('@loki/diff-looks-same');
-const { createPixelmatchDiffer } = require('@loki/diff-pixelmatch');
+const {
+  createGraphicsMagickDiffer,
+} = require('@ferocia-oss/loki-diff-graphics-magick');
+const { createLooksSameDiffer } = require('@ferocia-oss/loki-diff-looks-same');
+const { createPixelmatchDiffer } = require('@ferocia-oss/loki-diff-pixelmatch');
 
 function getImageDiffer(engine, config) {
   switch (engine) {

@@ -1,1 +1,1 @@
-require('@loki/integration-vue')();
+require('@ferocia-oss/loki-integration-vue')();

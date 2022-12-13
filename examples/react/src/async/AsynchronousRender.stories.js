@@ -1,5 +1,5 @@
 import React from 'react';
-import createAsyncCallback from '@loki/create-async-callback';
+import createAsyncCallback from '@ferocia-oss/loki-create-async-callback';
 import Logo from './Logo';
 import DelayedComponent from './DelayedComponent';
 

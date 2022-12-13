@@ -1,5 +1,5 @@
 {
-  "name": "@loki/example-react-native",
+  "name": "@ferocia-oss/loki-example-react-native",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -17,7 +17,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
-    "@loki/create-async-callback": "*",
+    "@ferocia-oss/loki-create-async-callback": "*",
     "@react-native-community/eslint-config": "^2.0.0",
     "@storybook/addon-actions": "^6.1",
     "@storybook/addon-links": "^6.1",
