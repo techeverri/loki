@@ -1,6 +1,6 @@
 {
   "name": "@ferocia-oss/loki-example-react",
-  "version": "0.30.3",
+  "version": "0.31.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -40,8 +40,8 @@
     ]
   },
   "devDependencies": {
-    "@ferocia-oss/loki-create-async-callback": "^0.30.2",
-    "@ferocia-oss/loki-is-loki-running": "^0.30.0",
+    "@ferocia-oss/loki-create-async-callback": "^0.31.0",
+    "@ferocia-oss/loki-is-loki-running": "^0.31.0",
     "@storybook/addon-actions": "^6.4.19",
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/addon-interactions": "^6.4.19",
@@ -52,7 +52,7 @@
     "@storybook/preset-create-react-app": "^4.1.0",
     "@storybook/react": "^6.4.19",
     "@storybook/testing-library": "^0.0.9",
-    "loki": "^0.30.3",
+    "loki": "^0.31.0",
     "webpack": "^5.70.0"
   }
 }
